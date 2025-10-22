@@ -30,7 +30,11 @@ export default async function sendDiscordMessage({
   username,
   avatar_url,
 }: InferSchema<typeof schema>) {
-  const webhookUrl = proces.env.WEBHOOK_URL;
+
+
+  const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
+
+  console.log("Using webhook URL:", webhookUrl);
   
   if (!webhookUrl) {
     throw new Error("DISCORD_WEBHOOK_URL environment variable is not set");
