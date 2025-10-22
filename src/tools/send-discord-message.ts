@@ -68,6 +68,7 @@ export default async function sendDiscordMessage({
       status: response.status,
     };
   } catch (error) {
+    console.log(error);
     return {
       success: false,
       message: `Failed to send message: ${error instanceof Error ? error.message : String(error)}`,
