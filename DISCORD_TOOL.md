@@ -6,7 +6,7 @@ This xMCP project includes a Discord webhook tool for sending messages to Discor
 
 1. **Environment Variables**: The Discord webhook URL is stored in the `.env` file:
    ```
-   DISCORD_WEBHOOK_URL=
+   DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1416104382235148358/vetPtCScxbBecQC6n5yP8QL5f2koNhALPRJ2tTaUiPf_MsJ8YYSZtEwwnf4YKFKvdhvg
    ```
 
 2. **Installation**: Make sure all dependencies are installed:

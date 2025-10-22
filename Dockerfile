@@ -15,7 +15,7 @@ COPY . .
 RUN npm run build
 
 # Expose the default HTTP port
-EXPOSE 400
+EXPOSE 4000
 
 # Start the MCP server
 CMD ["npm", "run", "start"]
