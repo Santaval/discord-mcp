@@ -30,7 +30,7 @@ export default async function sendDiscordMessage({
   username,
   avatar_url,
 }: InferSchema<typeof schema>) {
-  const webhookUrl = https://discord.com/api/webhooks/1416104382235148358/vetPtCScxbBecQC6n5yP8QL5f2koNhALPRJ2tTaUiPf_MsJ8YYSZtEwwnf4YKFKvdhvg;
+  const webhookUrl = "https://discord.com/api/webhooks/1416104382235148358/vetPtCScxbBecQC6n5yP8QL5f2koNhALPRJ2tTaUiPf_MsJ8YYSZtEwwnf4YKFKvdhvg"
   
   if (!webhookUrl) {
     throw new Error("DISCORD_WEBHOOK_URL environment variable is not set");
